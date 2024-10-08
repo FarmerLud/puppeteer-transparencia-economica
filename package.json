@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-transparencia-economica",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "pkg index.js",
+    "pkg-h": "pkg -h",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "puppeteer": "^22.13.1"
+  },
+  "pkg": {
+    "scripts": "index.js",
+    "targets": [
+      "node20-win-x64"
+    ],
+    "outputPath": "dist"
+  }
+}
